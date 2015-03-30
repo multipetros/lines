@@ -5,13 +5,14 @@ Copyright (c) 2013 - [Petros Kyladitis](http://www.multipetros.gr/)
 
 ## Description
 A line numbering program for text files.  
+Counting text file numbers and create a new one, with the lines numbered at the begining of each line. Also, supports custom delimiter and/or no leading zeros from line number.  
 It have Command Line Interface, using the GNU style for parameters.
 
 ## Usage
 `lines.exe [-h] [-v] [-l] [-o OUTPUT_FILE] [-d DELIMETER] INPUT_FILE`
 
 ## Manual
-Counting text file numbers and create a new one, with the lines numbered at the begining of each line. Supports custom delimiter, no leading zeros from line number. 
+
 
 ### Positional arguments
 * `INPUT_FILE`
@@ -34,7 +35,7 @@ Counting text file numbers and create a new one, with the lines numbered at the 
   => Delimeter between line nubers and the begining character of each line (by default, used a space)
 
 
-## Lisence
+## License
 This program is free software distributed under the FreeBSD,
 for license details see at 'LICENSE' file, distributed with
 this program, or see at <http://www.multipetros.gr/freebsd-license/>.
